@@ -1,0 +1,6 @@
+.not-found{
+  border: 1px solid red;
+  height:100vh;
+  width:100vw;
+  justify-content:center;
+}
