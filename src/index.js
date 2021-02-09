@@ -6,6 +6,9 @@ import { createStore } from 'redux';
 import App from './containers/App';
 import { counterReducer } from './reducers';
 
+import './styles/global.css'
+
+
 const initialState = { count: 0 } 
 const store = createStore(counterReducer, initialState)
 
